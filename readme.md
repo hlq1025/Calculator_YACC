@@ -20,7 +20,7 @@ flex
 
 # 3.How to Use
 
-sudo apt-get install flex
+`sudo apt-get install flex
 
 sudo apt-get install bison
 
@@ -30,7 +30,7 @@ bison -d cal.y
 
 gcc -o cal cal.tab.c lex.yy.c -ly -lm -lfl
 
-./cal
+./cal`
 
 
 
