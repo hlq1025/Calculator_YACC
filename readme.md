@@ -30,11 +30,13 @@ gcc -o cal cal.tab.c lex.yy.c -ly -lm -lfl
 
 4.Current Support Operator
 
-+
+加法
 
--
+减法
 
-*
+乘法
+
+除法
 
 /
 
