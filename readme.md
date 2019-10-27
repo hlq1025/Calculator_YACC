@@ -30,26 +30,24 @@ gcc -o cal cal.tab.c lex.yy.c -ly -lm -lfl
 
 4.Current Support Operator
 
-加法
++
 
-减法
+-
 
-乘法
-
-除法
+*
 
 /
 
-阶乘
+!
 
-幂运算
+^
 
-正弦
+sin
 
-余弦
+cos
 
-正切
+tan
 
-对数
+log
 
-指数
+exp
