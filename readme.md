@@ -1,4 +1,4 @@
-1.Introduction
+# 1.Introduction
 
 compiling principle exercise
 
@@ -8,13 +8,17 @@ this project contains cal.l and cal.y. cal.l describe lexical rules and cal.y de
 
 and now it distinguishs integer from floating point.
 
-2.Dependencies
+
+
+# 2.Dependencies
 
 bison
 
 flex
 
-3.How to Use
+
+
+# 3.How to Use
 
 sudo apt-get install flex
 
@@ -28,7 +32,9 @@ gcc -o cal cal.tab.c lex.yy.c -ly -lm -lfl
 
 ./cal
 
-4.Current Support Operator
+
+
+# 4.Current Support Operator
 
 +
 
@@ -37,6 +43,8 @@ gcc -o cal cal.tab.c lex.yy.c -ly -lm -lfl
 *
 
 /
+
+%
 
 !
 
