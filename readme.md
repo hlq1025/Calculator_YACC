@@ -9,32 +9,33 @@ this project contains cal.l and cal.y. cal.l describe lexical rules and cal.y de
 and now it distinguishs integer from floating point.
 
 
-
 # 2.Dependencies
 
 bison
 
 flex
 
-
-
-# 3.How to Use
-
 ```
 sudo apt-get install flex
 
 sudo apt-get install bison
+```
 
+# 3.How to Use
+##3.1  Compile 
+
+```
 flex cal.l
 
 bison -d cal.y
 
 gcc -o cal cal.tab.c lex.yy.c -ly -lm -lfl
 
+```
+##3.2 Run
+```
 ./cal
 ```
-
-
 # 4.Current Support Operator
 
 \+
