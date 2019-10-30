@@ -5,8 +5,8 @@ extern YYSTYPE yylval;
 %}
 
 %%
-(-?[1-9][0-9]*)|0  { yylval.ival = atoi(yytext); return INTEGER; } 
-((-?[1-9][0-9]*)|0)(\.[0-9]+)  { yylval.dval= atof(yytext); return DECIMAL; } 
+([1-9][0-9]*)|0  { yylval.ival = atoi(yytext); return INTEGER; } 
+(([1-9][0-9]*)|0)(\.[0-9]+)  { yylval.dval= atof(yytext); return DECIMAL; } 
 sin {return SIN;}
 cos {return COS;}
 tan {return TAN;}
