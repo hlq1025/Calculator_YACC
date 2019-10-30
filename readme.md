@@ -22,7 +22,7 @@ sudo apt-get install bison
 ```
 
 # 3.How to Use
-##3.1  Compile 
+## 3.1  Compile 
 
 ```
 flex cal.l
@@ -32,7 +32,7 @@ bison -d cal.y
 gcc -o cal cal.tab.c lex.yy.c -ly -lm -lfl
 
 ```
-##3.2 Run
+## 3.2 Run
 ```
 ./cal
 ```
@@ -61,3 +61,5 @@ tan
 log
 
 exp
+# 5.Result
+![result](https://github.com/hlq1025/Calculator_YACC/blob/master/cal.png)
